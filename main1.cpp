@@ -6,6 +6,7 @@ int main(){
     std::string nome;
     int idade;
     float altura;
+    //teste
 
     std::cout<<"Qual seu nome:"<<std::endl;
     std::cin>>nome;
