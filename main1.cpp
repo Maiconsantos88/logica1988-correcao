@@ -1,13 +1,21 @@
 #include<iostream> // Biblioteca para entrada e saída (cout e cin)
-#include<string>  // Biblioteca para usar strings (texto)
+
 
 int main(){
-    std::string diaDaSemana;
+   
+   int a;
+   int b;
+   // poderia usar assim também int a, b
 
-    std::cout<<"Que dia é hoje: "<<std::endl;
-    std::cin>>diaDaSemana;
+   std::cout<<"Digite um valor para A: "<<std::endl;
+   std::cin>>a;
 
-    std::cout<<"Hoje é "<<diaDaSemana<<"!!"<<std::endl;
+   std::cout<<"Digitr um valor para B: "<<std::endl;
+   std::cin>>b;
+
+   std::cout<<(a > b)<<std::endl;
+   std::cout<<(a >= b)<<std::endl;
+   std::cout<<(a != b)<<std::endl;
    
     return 0;
 }
