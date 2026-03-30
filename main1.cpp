@@ -13,9 +13,8 @@ int main(){
    std::cout<<"Digitr um valor para B: "<<std::endl;
    std::cin>>b;
 
-   std::cout<<(a > b)<<std::endl;
-   std::cout<<(a >= b)<<std::endl;
    std::cout<<(a != b)<<std::endl;
+   std::cout<<(a == b)<<std::endl;
    
     return 0;
 }
