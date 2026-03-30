@@ -1,13 +1,14 @@
-#include<iostream>
-#include<string>
+#include<iostream> // Biblioteca para entrada e saída (cout e cin)
+#include<string>  // Biblioteca para usar strings (texto)
 
 int main(){
+     // Declaração das variáveis
   
-    std::string nome;
-    int idade;
-    float altura;
-    //teste
-
+    std::string nome; // variável para armazenar o nome (texto)
+    int idade;         // variável para armazenar a idade (número inteiro)
+    float altura;       // variável para armazenar a altura (número com casas decimais)
+  
+    // Solicita o nome do usuário
     std::cout<<"Qual seu nome:"<<std::endl;
     std::cin>>nome;
     std::cout<<"Qual sua idade:"<<std::endl;
