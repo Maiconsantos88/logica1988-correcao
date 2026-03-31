@@ -2,19 +2,15 @@
 
 
 int main(){
+
+    int soma1 = 100 + 50;
+    int soma2 = soma1 + 50;
+    int soma3 = soma2 + 100;
+
+    std::cout<<soma2<<std::endl;
+    std::cout<<soma3<<std::endl;
    
-   int a;
-   int b;
-   // poderia usar assim também int a, b
 
-   std::cout<<"Digite um valor para A: "<<std::endl;
-   std::cin>>a;
-
-   std::cout<<"Digitr um valor para B: "<<std::endl;
-   std::cin>>b;
-
-   std::cout<<(a != b)<<std::endl;
-   std::cout<<(a == b)<<std::endl;
    
     return 0;
 }
