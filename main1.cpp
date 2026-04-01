@@ -4,10 +4,11 @@
 int main(){
 
     bool condicao = true;
+    bool condicao1 = false;
 
     std::cout<<condicao<<std::endl;
-    //g++ main.cpp -o programa
-    //./programa
+    std::cout<<condicao1<<std::endl;
+   
 
 
    
