@@ -1,18 +1,29 @@
 #include<iostream> // Biblioteca para entrada e saída (cout e cin)
+#include<string>
 
 int main(){
 
-    auto num1 = 10;
-    auto num2 = 15.80f;
-    auto letra = 'E';
-    auto texto = "Maicon";
+   //Solicite ao usuário para ele digitar nome (primeiro nome)
+   //Colocar a idade
+   //fazer um cáculo para que diga que ano nasceu
+   //No final mostre o nome da pessoa.. você nasceu no ano...
+   //Vamos tentar SEM IA??
 
-    std::cout<<num1<<std::endl;
-    std::cout<<num2<<std::endl;
-    std::cout<<letra<<std::endl;
-    std::cout<<texto<<std::endl;
+   std::string nome;
+   int idade;
+   int anoAtual = 2026;
+   int anoNascimento;
+
+    std::cout<<"Qual seu nome:"<<std::endl;
+    std::cin>>nome;
+    std::cout<<"Qual sua idade:"<<std::endl;
+    std::cin>>idade;
+
+    anoNascimento = anoAtual - idade;
+
+    std::cout << "Bem-vindo(a), " << nome << ", voce nasceu no ano " << anoNascimento << std::endl;
 
     
-   
     return 0;
 }
+
