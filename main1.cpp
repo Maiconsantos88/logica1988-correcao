@@ -21,9 +21,10 @@ int main(){
 
     anoNascimento = anoAtual - idade;
 
-    std::cout << "Bem-vindo(a), " << nome << ", voce nasceu no ano " << anoNascimento << std::endl;
+    std::cout << "Bem-vindo(a), " << nome <<"!!"<<std::endl;
+    std::cout<< "Você nasceu em: "<<anoNascimento<<"."<<std::endl;
 
-    
+ 
     return 0;
 }
 
