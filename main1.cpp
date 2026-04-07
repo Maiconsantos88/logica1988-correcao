@@ -3,11 +3,10 @@
 
 int main(){
 
-    int maicon[5] = {10,20,30,40,50};
+   std::string nome = "Maicon";
 
-    std::cout<<maicon[1];
+   std::cout<<nome[0];
 
-   
       
     return 0;
 }
