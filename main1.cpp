@@ -3,14 +3,11 @@
 
 int main(){
 
-    int a = 40;
+    std::string nome = "Maicon";
 
-    std::string d = "10";
-
-    std::cout<<a+d<<std::endl;
-    
-    
-   
+    std::cout<<"Nome tem: "<<nome.length()<<" letras."<<std::endl;
+    std::cout<<"Nome tem: "<<nome.size()<<" letras."<<std::endl;
+      
     return 0;
 }
 
