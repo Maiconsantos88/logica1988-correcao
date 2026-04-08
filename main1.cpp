@@ -7,6 +7,7 @@ int main(){  // Função principal onde o programa começa
     int b = 3;
 
     std::cout<<std::max(a, b)<<std::endl;
+    std::cout<<std::max(a, b)<<std::endl;
 
     return 0;
 }
