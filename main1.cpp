@@ -7,10 +7,10 @@ int main(){  // Função principal onde o programa começa
    std::cout<<"Digite sua idade: "<<std::endl;
    std::cin>>idade;
 
-   if(idade >= 18){
-    std::cout<<"Voce e maior de idade!"<<std::endl;
-   }else{
-    std::cout<<"Voce e menor de idade!!"<<std::endl;
+   if(idade < 0){
+    std::cout<<"Idade invalida!"<<std::endl;
+   }else if(idade <= 2){
+    std::cout<<"Voce e um bebe!"<<std::endl;
    }
 
     return 0;
