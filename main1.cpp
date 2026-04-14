@@ -1,38 +1,33 @@
-#include <iostream>
+#include<iostream>
+#include<string>
 
-int main(){
+int main(){  // Função principal onde o programa começa
 
-    int opcaoPagamento;
-    int qtdParafuso;
-    float valorParafuso = 1.40;
-    float valorTotalParafuso;
-    float desconto;
-    float juros;
+   std::string nome;
+   float altura;
+   int idade;
 
-    std::cout << "Digite a quantidade de parafusos desejados: " << std::endl;
-    std::cin >> qtdParafuso;
+   std::cout<<"Digite seu nome: "<<std::endl;
+   std::cin>>nome;
 
-    valorTotalParafuso = qtdParafuso * valorParafuso;
+   std::cout<<"Digite sua altura: "<<std::endl;
+   std::cin>>altura;
 
-    std::cout << "Qual a forma de pagamento: " << std::endl;
-    std::cout << "--- 1 - Pix" << std::endl;
-    std::cout << "--- 2 - Dinheiro" << std::endl;
-    std::cout << "--- 3 - Cartao" << std::endl;
-    std::cin >> opcaoPagamento;
+   std::cout<<"Digite sua idade: "<<std::endl;
+   std::cin>>idade;
 
-    if(opcaoPagamento == 1){
-        std::cout << "Sua compra ficou no valor total de R$: " << valorTotalParafuso << std::endl;
+   if(idade < 0){
+        std::cout<<"Voce disgitou um valor invalido para uma idade!"<<std::endl;
+   }else if(idade <= 10){
+        std::cout<<"Voce e uma crianca!"<<std::endl;
+   }else if(idade <= 18){
+        std::cout<<"voce e um(a) adolescente!"<<std::endl;
+   }else if(idade <= 60){
+        std::cout<<"voce e adulto(a)!"<<std::endl;
+   }else{
+        std::cout<<"voce e um(a) senior!"<<std::endl;
+   }
 
-    } else if(opcaoPagamento == 2){
-        desconto = valorTotalParafuso * 0.90;
-        std::cout << "Sua compra ficou no valor total de R$: " << desconto << std::endl;
-
-    } else {
-        juros = valorTotalParafuso * 1.10;
-        std::cout << "Sua compra ficou no valor total de R$: " << juros << std::endl;
-    }
 
     return 0;
-    
 }
-
