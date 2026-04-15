@@ -1,14 +1,16 @@
 #include <iostream>
+#include<windows.h>
 
 int main(){ // Função principal onde o programa começa
 
-     for(int i = 1; i <= 10; i++){
-          std::cout<<"Este é um loop"<<std::endl;
+     SetConsoleOutputCP(CP_UTF8);
+     SetConsoleCP(CP_UTF8);
+
+     for(int i = 10; i >= 0; i--){
+          std::cout<<"A bomba irá explodir em.."<<i<<std::endl;
      }
 
      
-
-    
 
      return 0;
 }
