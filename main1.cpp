@@ -12,6 +12,6 @@ int main(){ // Função principal onde o programa começa
      
      std::cout<<nomes[1]<<" tem "<<idades[1]<<" anos!"<<std::endl;
      std::cout<<nomes[2]<<" tem "<<idades[2]<<" anos!"<<std::endl;
-
+     std::cout<<nomes[0]<<" tem "<<idades[0]<<" anos!"<<std::endl;
      return 0;
 }
