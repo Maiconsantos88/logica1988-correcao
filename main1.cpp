@@ -7,14 +7,13 @@ int main(){ // Função principal onde o programa começa
      SetConsoleOutputCP(CP_UTF8);
      SetConsoleCP(CP_UTF8);
 
-     int numeros[3];
-     numeros[0] = 10;
-     numeros[1] = 20;
-     numeros[2] = 30;
+     std::string letras[2][4] = {
+          {"A", "B", "C", "D"},
+          {"E", "F", "G", "H"}
+     };
 
-     for(int i = 0; i < 3; i++){
-          std::cout<<numeros[i]<<std::endl;
-     }
+     std::cout<<letras[1][0]<<std::endl;
+    
    
      return 0;
 }
