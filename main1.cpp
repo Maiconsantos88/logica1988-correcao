@@ -6,21 +6,15 @@ int main(){ // Função principal onde o programa começa
      SetConsoleOutputCP(CP_UTF8);
      SetConsoleCP(CP_UTF8);
 
-     int num;
+     int quantidade;
 
      do{
-          std::cout << "Digite um valor para num:" <<std::endl;
-          std::cin >> num;
+          std::cout<<"Digite a quantidade em estoque (Deve ser maior que 0): "<<std::endl;
+          std::cin>>quantidade;
+     }
+     while(quantidade <= 0);
+     std::cout<<"Estoque atualizado: "<<quantidade<<" unidades."<<std::endl;
 
-          if (num < 1 || num > 10){
-               std::cout << "Entrada inválida!!" << std::endl;
-          }
-
-     }while (num < 1 || num > 10);
-          {
-               std::cout << "Obrigado!! Você escolheu o número:" <<num<< std::endl;
-          }
-     
 
      return 0;
 }
