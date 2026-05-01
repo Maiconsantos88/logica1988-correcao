@@ -6,20 +6,18 @@ int main(){
      SetConsoleOutputCP(CP_UTF8);
      SetConsoleCP(CP_UTF8);
 
-     int num;
+     int totalSeconds;
 
-     std::cout<<"Digite um valor para num: "<<std::endl;
-     std::cin>>num;
+     std::cout<<"Enter total seconds: "<<std::endl;
+     std::cin>>totalSeconds;
 
-     if(num % 2 == 0){
-        std::cout<<num<<"É par!"<<std::endl;
-    }else{
-        std::cout<<num<<"É impar!!"<<std::endl;
-    }
+     int minutes = totalSeconds / 60;
+     int seconds = totalSeconds % 60;
+
+     std::cout<<"Time: "<<minutes<<" minutes and "<<seconds<<" seconds."<<std::endl;
 
      
 
-
-
+     
      return 0;
 }
