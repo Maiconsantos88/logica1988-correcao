@@ -43,5 +43,17 @@ int main()
      std::cout << nomeCompleto << std::endl;
      std::cout << cpf << std::endl;
 
+
+
+     //  std::cout << "Digite o nome completo do aluno: " << std::endl;
+     // std::getline(std::cin, nomeCompleto);
+
+     // std::cout << "Digite o cpf: " << std::endl;
+     // std::getline(std::cin, cpf);
+
+     // std::cout << nomeCompleto << std::endl;
+     // std::cout << cpf << std::endl;
+     //excluir depois essas linhas!!
+
      return 0;
 }
