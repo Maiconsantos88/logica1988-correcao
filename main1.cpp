@@ -1,4 +1,5 @@
 #include<iostream>
+#include<string>
 #include <windows.h>
 
 int main(){ 
@@ -6,18 +7,26 @@ int main(){
      SetConsoleOutputCP(CP_UTF8);
      SetConsoleCP(CP_UTF8);
 
-     int totalSeconds;
+    std::string nomeCompleto, cpf, estado, matricula;
+    std::string cpf , cpfResponsavelFinanceiro
+    std::string rua, numeroCasa;
+    std::string telefoneAluno, telefoneMae, telefonePai;
+    std::string curso;
 
-     std::cout<<"Enter total seconds: "<<std::endl;
-     std::cin>>totalSeconds;
-
-     int minutes = totalSeconds / 60;
-     int seconds = totalSeconds % 60;
-
-     std::cout<<"Time: "<<minutes<<" minutes and "<<seconds<<" seconds."<<std::endl;
 
      
-
      
+     std::cout<<"Digite o nome completo do aluno: "<<std::endl;
+     std::getline(std::cin, nomeCompleto);
+
+     std::cout<<"Digite o cpf: "<<std::endl;
+     std::getline(std::cin, cpf);
+
+     std::cout<<nomeCompleto<<std::endl;
+     std::cout<<cpf<<std::endl;
+     
+
+
      return 0;
+
 }
