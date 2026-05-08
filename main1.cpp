@@ -53,7 +53,7 @@ int main()
      std::string cpf, cpfResponsavelFinanceiro;
      std::string rgAluno, rgResponsavelFinanceiro;
      std::string enderecoCompletoAluno, enderecoResponsavelFinanceiro;
-     std::string numeroCasa, cepAluno, cepResponsavelFinanceiro;
+     std::string cidade, numeroCasa, cepAluno, cepResponsavelFinanceiro;
      std::string contatoAluno, contatoResponsavelFinanceiro;
 
      exibirModalidade();
@@ -85,6 +85,9 @@ int main()
 
      std::cout << "Digite o endereco completo do aluno: ";
      std::getline(std::cin, enderecoCompletoAluno);
+
+      std::cout << "Digite cidade: ";
+     std::getline(std::cin, cidade);
 
      std::cout << "Digite o numero da casa: ";
      std::getline(std::cin, numeroCasa);
