@@ -86,7 +86,7 @@ int main()
      std::cout << "Digite o endereco completo do aluno: ";
      std::getline(std::cin, enderecoCompletoAluno);
 
-      std::cout << "Digite cidade: ";
+     std::cout << "Digite cidade: ";
      std::getline(std::cin, cidade);
 
      std::cout << "Digite o numero da casa: ";
